@@ -77,8 +77,6 @@ programming_dictionary = {
 # add_new_country("Russia",2,["Moscow", "Saint Petersburg"])
 # print(travel_log)
 
-from replit import clear
-
 bids = {}
 bidding_finished = False
 
@@ -99,5 +97,3 @@ while not bidding_finished:
   if should_continue == "no":
     bidding_finished = True
     find_highest_bidder(bids)
-  elif should_continue == "yes":
-    clear()
